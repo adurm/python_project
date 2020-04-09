@@ -1,0 +1,51 @@
+{
+  "revision_id": "fa13cff83d3c351e486a9bcb8a20be9153f8383e1a05d7a657d15175df9ade46",
+  "name": "adam",
+  "run_list": [
+    "recipe[adam::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "adam": {
+      "version": "0.1.0",
+      "identifier": "4a9d576b3f98a4874472758ca6dd7dd0bb4794a2",
+      "dotted_decimal_identifier": "21002147063634084.38074380245051101.138335448700066",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "9d085abd2558efb644dd6934d4622a2aaa020042",
+        "working_tree_clean": true,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "adam",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "adam (0.1.0)": [
+
+      ]
+    }
+  }
+}
